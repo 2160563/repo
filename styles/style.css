@@ -1,0 +1,238 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+}
+section#fixed{
+    position: fixed;
+    z-index: 150;
+    width: 100%;
+}
+section#fixed header{
+    background-image: url("../styles/mountain.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+}
+img#logo{
+    height: 10%;
+    width: 6%;
+    padding-left: 3%;
+}
+h1.boldtitle{
+    padding-left: 4%;
+    display: inline;
+    font-family: "Century Gothic";
+    font-size: 4vw;
+}
+nav{
+    width: 100%;
+    height: 5%;
+    background-color: lightgray;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    position: fixed;
+}
+#nav_bar a{
+    display: inline;
+    text-align: center;
+    color: black;
+    font-family: calibri;
+    font-size: 2vw;
+    text-decoration: none;
+    font-weight: 200;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+#nav_bar a:hover{
+    background-color: forestgreen;
+}
+section#gallery{
+    padding-top: 5.5%;
+    text-align: center;
+}
+figure.galleryPic{
+    width: 32%;
+    display: inline-block;
+    margin: 5px; 
+}
+figure.galleryPic img{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+article#news, article#about, article#how{
+    padding-top: 5.5%;
+    padding-bottom: 5%;
+}
+.headlines a{
+    text-decoration: none;
+    color: black;
+}
+article#news{
+    text-align: center;
+}
+h2{
+    font-family: "Century Gothic";
+    font-size: 3vw;
+    text-align: left;
+    color: forestgreen;
+    margin: 5%;
+}
+h4{
+    font-family: "Century Gothic";
+    font-size: 2vw;
+    text-align: left;
+    color: forestgreen;
+    margin: 5%;
+}
+figure.headlines{
+    margin: 5px;
+    border: 2px solid gray;
+    width: 22%;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+figure.headlines:hover {
+    border: 2px solid black;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+figure.headlines img {
+    width: 100%;
+    height: auto;
+}
+.headlines img:hover{
+    opacity: 0.6;
+}
+article p{
+    padding-left: 3%;
+    font-family: Calibri;
+    font-size: 1.7vw;
+    font-weight: 300;
+}
+article#about{
+    background-image:url("../styles/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2%;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    z-index: 50;
+}
+section#mandvEnvi{
+    font-family: Calibri;
+    font-weight: 100;
+    font-size: 1.6vw;
+}
+section#mandvEnvi h3{
+    color: forestgreen;
+    font-family: "Century Gothic";
+    margin-left: 5%;
+}
+section#mandvEnvi ul{
+    margin-left: 10%;
+}
+figcaption, p.refEnvi{
+    font-family: calibri;
+    font-size: 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
+#map{
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    background-color: white;
+}
+#map img{
+    width: 100%;
+    transition: all 0.3s;
+}
+#map img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+footer{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    font-family: Calibri;
+    font-weight: 100;
+    font-size: 1.6vw;
+    width: 100%;
+    padding-bottom: 1.5%;
+}
+footer img{
+    width: 7%;
+    float: right;
+    padding-top: 0.6%;
+}
+footer img:hover{
+    opacity: 0.6;
+}
+
+h3#h3Envi{
+    font-family: "Century Gothic";
+    font-size: 2vw;
+    text-align: center;
+    padding-left: 78%;
+}
+section.contentEnvi{
+    width: 100%;
+    padding-top: 10.1%;
+    text-align: center;
+}
+section.contentEnvi article{
+    padding-top: 0.5%;
+    text-align: justify;
+    float: left;
+    width: 70%;
+    padding-bottom: 5%;
+}
+aside.relatedEnvi figure{
+    float: right;
+}
+section.creditsEnvi{
+    color: forestgreen;
+    font-family: Calibri;
+    float: left;
+    text-align: left;
+    padding-right: 50%;
+}
+hr{
+    border: 2px solid forestgreen;
+}
+
+footer.newsFooterEnvi{
+    clear: both;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    font-family: Calibri;
+    font-weight: 100;
+    font-size: 1.6vw;
+    width: 100%;
+    padding-bottom: 1.5%;
+}
+footer.newsFooterEnvi img{
+    width: 7%;
+    float: right;
+    padding-top: 0.6%;
+}
+footer.newsFooterEnvi img:hover{
+    opacity: 0.6;
+}
