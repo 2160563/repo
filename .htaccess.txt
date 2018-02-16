@@ -1,0 +1,6 @@
+<files *.html>
+SetOutputFilter DEFLATE
+</files>
+<files *.css>
+SetOutputFilter DEFLATE
+</files>
